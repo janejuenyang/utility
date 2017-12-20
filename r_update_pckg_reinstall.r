@@ -11,7 +11,7 @@ install.packages(c("ggplot2", "devtools", "dplyr", "shinythemes", "shinyBS",
     "mapproj", "maptools", "multcomp", "optmatch", "MatchIt", "readxl", 
     "rsconnect", "leaflet", "randomForest", "ggthemes", "googlesheets", 
     "tibble", "data.table", "cowplot", "stargazer", "pwr", "forecast", 
-    "seasonal", "quantmod", "caret", "xray"))
+    "seasonal", "quantmod", "caret", "xray", "forecastHybrid"))
 
 # configure computer to allow app uploads to oaf's shinyapps.io account
 # rsconnect::setAccountInfo(name='oneacrefund',
