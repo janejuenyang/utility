@@ -1,17 +1,27 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang 
-# last edited: dec 2, 2017
+# last edited: dec 22, 2017
 
-# install packages
-install.packages(c("ggplot2", "devtools", "dplyr", "shinythemes", "shinyBS", 
-    "ggvis", "RColorBrewer", "rgdal", "sp", "raster", "stringr", "tidyr", 
-    "shiny", "reshape2", "circlize", "radiant", "foreign", "knitr", "rgeos",
-    "rmarkdown", "xtable", "wordcloud", "RgoogleMaps", "NbClust", "fpc",
-    "mapproj", "maptools", "multcomp", "optmatch", "MatchIt", "readxl", 
-    "rsconnect", "leaflet", "randomForest", "ggthemes", "googlesheets", 
-    "tibble", "data.table", "cowplot", "stargazer", "pwr", "forecast", 
-    "seasonal", "quantmod", "caret", "xray", "forecastHybrid"))
+# install core packages
+install.packages(c("ggplot2", "devtools", "dplyr", "stringr", "tidyr", 
+    "reshape2", "lubridate", "knitr", "rmarkdown", "readxl", "RODBC",
+    "ggthemes", "googlesheets"))
+
+# install packages related to shiny
+install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect"))
+
+# install packages for mapping / geospatial analysis
+install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
+    "mapproj", "maptools", "leaflet"))
+
+# install packages for statistical analysis 
+install.packages(c("radiant", "xray", "xtable", "NbClust", "fpc",
+    "multcomp", "optmatch", "MatchIt", "randomForest", "stargazer", "pwr", 
+    "forecast", "seasonal", "caret", "forecastHybrid"))
+
+# install packages for interesting visualizations
+install.packages(c("circlize", "wordcloud"))
 
 # configure computer to allow app uploads to oaf's shinyapps.io account
 # rsconnect::setAccountInfo(name='oneacrefund',
