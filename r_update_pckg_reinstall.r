@@ -4,9 +4,8 @@
 # last edited: dec 22, 2017
 
 # install core packages
-install.packages(c("ggplot2", "devtools", "dplyr", "stringr", "tidyr", 
-    "reshape2", "lubridate", "knitr", "rmarkdown", "readxl", "RODBC",
-    "ggthemes", "googlesheets"))
+install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
+    "RODBC", "ggthemes", "googlesheets"))
 
 # install packages related to shiny
 install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect"))
