@@ -23,7 +23,7 @@ install.packages(c("radiant", "xray", "xtable", "NbClust", "fpc",
 install.packages(c("circlize", "wordcloud"))
 
 # install packages for formatting
-install.packages(c("xkcd", "extrafont", "acepack))
+install.packages(c("xkcd", "extrafont", "acepack"))
 
 # configure computer to allow app uploads to oaf's shinyapps.io account
 # rsconnect::setAccountInfo(name='oneacrefund',
