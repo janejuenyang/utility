@@ -1,11 +1,11 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang 
-# last edited: oct 17, 2018
+# last edited: jan 17, 2019
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
-    "RODBC", "RJDBC", "ggthemes", "googlesheets"))
+    "RODBC", "RJDBC", "RMySQL", "ggthemes", "googlesheets"))
 
 # install packages related to shiny
 install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect"))
