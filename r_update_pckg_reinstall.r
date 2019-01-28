@@ -5,7 +5,7 @@
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
-    "ggthemes", "googlesheets", "keyring"))
+    "ggthemes", "googlesheets", "googledrive", "keyring"))
 
 # install database connector packages
 install.packages(c("RODBC", "RJDBC", "RMariaDB", "bigrquery"))
