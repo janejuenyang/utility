@@ -3,3 +3,10 @@
 .RData
 .Ruserdata
 *.dat
+geoip_maxmind/GeoIP-103_20131217.csv
+geoip_maxmind/GeoIP-105_20131203.xml
+geoip_maxmind/GeoIP-134_20131217_GeoIPCity-Blocks.csv
+geoip_maxmind/GeoIP-134_20131217_GeoIPCity-Location.csv
+geoip_maxmind/GeoIP2-City_20131218_GeoIP2-City.mmdb
+geoip_maxmind/GeoIP2-Country_20131218_GeoIP2-Country.mmdb
+geoip_maxmind/MaxMind_databases.csv
