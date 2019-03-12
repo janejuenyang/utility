@@ -22,7 +22,7 @@ install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
 install.packages(c("radiant", "xray", "xtable", "NbClust", "fpc",
     "multcomp", "optmatch", "MatchIt", "randomForest", "stargazer", "pwr", 
     "forecast", "seasonal", "caret", "forecastHybrid", 
-    "survival", "ranger"))
+    "survival", "ranger", "survminer"))
 
 # install packages for interesting visualizations
 install.packages(c("circlize", "wordcloud"))
