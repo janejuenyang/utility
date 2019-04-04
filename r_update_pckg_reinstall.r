@@ -19,10 +19,28 @@ install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
     "mapproj", "maptools", "leaflet"))
 
 # install packages for statistical analysis 
-install.packages(c("radiant", "xray", "xtable", "NbClust", "fpc",
-    "multcomp", "optmatch", "MatchIt", "randomForest", "stargazer", "pwr", 
-    "forecast", "seasonal", "caret", "forecastHybrid", "bayesAB", 
-    "survival", "ranger", "survminer", "caret", "pROC", "rJava", "glmulti"))
+install.packages(c(
+    # for general explorations
+     "xray", "radiant"  
+    # for predictive modeling
+    , "caret" 
+    # for logit regressions
+    , "pROC", "rJava", "glmulti" 
+    # for multi-variate (e.g. anova) tests
+    , "multcomp" 
+    # for time series analysis
+    , "forecast", "seasonal", "forecastHybrid" 
+    # for matching controls (e.g. propensity scores)
+    , "optmatch", "MatchIt" 
+    # for A/B testing
+    , "pwr", "bayesAB"
+    # for survival analysis
+    , "survival", "ranger", "survminer" 
+    # for classification analysis
+    , "cluster", "factoextra", "fpc", "NbClust", "randomForest" 
+    # for exporting results to LaTeX or HTML
+    , "xtable", "stargazer" 
+))
 
 # install packages for interesting visualizations
 install.packages(c("circlize", "wordcloud", "networkD3"))
