@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang 
-# last edited: mar 29, 2019
+# last edited: apr 4, 2019
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
@@ -21,7 +21,7 @@ install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
 # install packages for statistical analysis 
 install.packages(c("radiant", "xray", "xtable", "NbClust", "fpc",
     "multcomp", "optmatch", "MatchIt", "randomForest", "stargazer", "pwr", 
-    "forecast", "seasonal", "caret", "forecastHybrid", 
+    "forecast", "seasonal", "caret", "forecastHybrid", "bayesAB", 
     "survival", "ranger", "survminer", "caret", "pROC", "rJava", "glmulti"))
 
 # install packages for interesting visualizations
