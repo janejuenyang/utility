@@ -44,7 +44,8 @@ install.packages(c(
 ))
 
 # install packages for interesting visualizations
-install.packages(c("circlize", "wordcloud", "networkD3", "gganimate", "tweenr"))
+install.packages(c("circlize", "wordcloud", "networkD3", "gganimate", "tweenr",
+    "gifski"))
 
 # install packages for formatting
 install.packages(c("xkcd", "extrafont", "acepack"))
