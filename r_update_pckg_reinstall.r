@@ -41,13 +41,12 @@ install.packages(c(
     , "cluster", "factoextra", "fpc", "NbClust", "randomForest" 
     # for exporting results to LaTeX or HTML
     , "xtable", "stargazer" 
-    # for network analysis
-    , "statnet", "GGally"
+    
 ))
 
 # install packages for interesting visualizations
 install.packages(c("circlize", "wordcloud", "networkD3", "gganimate", "tweenr",
-    "gifski"))
+    "gifski", "ggalluvial", "statnet", "GGally"))
 
 # install packages for formatting
 install.packages(c("xkcd", "extrafont", "acepack"))
