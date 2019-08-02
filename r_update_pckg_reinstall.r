@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang 
-# last edited: june 5, 2019
+# last edited: aug 2, 2019
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
@@ -41,6 +41,8 @@ install.packages(c(
     , "cluster", "factoextra", "fpc", "NbClust", "randomForest" 
     # for exporting results to LaTeX or HTML
     , "xtable", "stargazer" 
+    # for network analysis
+    , "statnet", "GGally"
 ))
 
 # install packages for interesting visualizations
