@@ -9,7 +9,8 @@ install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
     "urltools"))
 
 # install database connector packages
-install.packages(c("RODBC", "RJDBC", "RMariaDB", "bigrquery", "rgeolocate"))
+install.packages(c("RODBC", "RJDBC", "RMariaDB", "bigrquery", 
+    "rgeolocate", "rredis"))
 
 # install packages related to shiny
 install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect",
