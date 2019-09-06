@@ -12,7 +12,8 @@ install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
 install.packages(c("RODBC", "RJDBC", "RMariaDB", "bigrquery", "rgeolocate"))
 
 # install packages related to shiny
-install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect"))
+install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect",
+    "shinyloadtest"))
 
 # install packages for mapping / geospatial analysis
 install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
