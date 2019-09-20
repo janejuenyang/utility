@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang 
-# last edited: sep 6, 2019
+# last edited: sep 20, 2019
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
@@ -14,7 +14,7 @@ install.packages(c("RODBC", "RJDBC", "RMariaDB", "bigrquery",
 
 # install packages related to shiny
 install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect",
-    "shinyloadtest", "shinydashboard"))
+    "shinyloadtest", "shinydashboard", "plotly"))
 
 # install packages for mapping / geospatial analysis
 install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
