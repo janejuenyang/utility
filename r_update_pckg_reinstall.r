@@ -1,12 +1,12 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang 
-# last edited: nov 13, 2019
+# last edited: sep 2, 2020
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
     "ggthemes", "googlesheets4", "googledrive", "keyring", "directlabels", 
-    "urltools"))
+    "urltools", "xray"))
 
 # install database connector packages
 install.packages(c("DBI", "pool", "RODBC", "RJDBC", "RMariaDB", "bigrquery", 
