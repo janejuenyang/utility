@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang 
-# last edited: feb 15, 2022
+# last edited: apr 8, 2022
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown", 
@@ -41,7 +41,7 @@ install.packages(c(
     # for A/B testing
     , "pwr", "bayesAB"
     # for survival analysis
-    , "survival", "ranger", "survminer" 
+    , "survival", "ranger", "survminer", "flexsurv", "muhaz"
     # for classification analysis
     , "cluster", "factoextra", "fpc", "NbClust", "randomForest" 
     # for exporting pretty table results to LaTeX or HTML
