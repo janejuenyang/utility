@@ -17,6 +17,9 @@ library(directlabels) # for line plot labeling
 library(cowplot) # for multi-plot manipulation
 library(xray) # for data analysis
 library(zoo) # for rolling aggregates
+library(extrafont) # for prettier fonts
+library(gt) # pretty table formatting
+library(BRRR) # fun notifications
 
 #### set standard options ####
 theme_set(theme_minimal()) # ggplot theme
