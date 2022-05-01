@@ -20,7 +20,7 @@ install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect",
 # install packages for mapping / geospatial analysis
 install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
     "mapproj", "maptools", "leaflet", "sf", "ggrepel", "ggspatial", 
-    "libwgeom", "rnaturalearth", "rnaturalearthdata", "cowplot"))
+    "libwgeom", "rnaturalearth", "rnaturalearthdata", "cowplot", "tmaptools"))
 
 # install packages for statistical analysis 
 install.packages(c(
