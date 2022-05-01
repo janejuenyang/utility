@@ -17,6 +17,9 @@ library(directlabels) # for line plot labeling
 library(cowplot) # for multi-plot manipulation
 library(xray) # for data analysis
 library(zoo) # for rolling aggregates
+library(extrafont) # for prettier fonts
+library(gt) # pretty table formatting
+library(BRRR) # fun notifications
 
 #### set standard options ####
 theme_set(theme_minimal()) # ggplot theme
@@ -24,11 +27,11 @@ options(scipen = 20) # prefer integers over scientific notation
 
 #### custom functions ####
 # summarize counts by group and return results arranged in descending order
-count_by_group <- function(data, group_var, arrange_var){
-    group_var <- enquo(group_var)
+count_by_group <- function(data, arrange_var, ...){
+    group_vars <- enquos(...)
     arrange_var <- enquo(arrange_var)
     data %>% 
-        group_by(!!group_var) %>%
+        group_by(!!!group_vars) %>%
         summarize(n = n()) %>%
         ungroup() %>%
         mutate(pct = n / sum(n)) %>%
@@ -36,12 +39,12 @@ count_by_group <- function(data, group_var, arrange_var){
 }
 
 # summarize totals by group and return results arranged in descending order
-sum_by_group <- function(data, group_var, arrange_var, sum_var){
-    group_var <- enquo(group_var)
+sum_by_group <- function(data, arrange_var, sum_var, ...){
+    group_vars <- enquos(...)
     arrange_var <- enquo(arrange_var)
     sum_var <- enquo(sum_var)
     data %>% 
-        group_by(!!group_var) %>%
+        group_by(!!!group_vars) %>%
         summarize(n = sum(!!sum_var)) %>%
         ungroup() %>%
         mutate(pct = n / sum(n)) %>%
