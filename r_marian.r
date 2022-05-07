@@ -1,3 +1,10 @@
+################################################################################
+# load my preferred libraries, optins, and custom functions
+# named for marian wright edelman, who said:
+# "service is the rent we pay to be living"
+# by: jane yang
+################################################################################
+
 #### set up ####
 # clear environment and console
 rm(list = ls())
@@ -14,6 +21,7 @@ library(lubridate) # making it easy to work with dates
 library(keyring) # keep secrets hidden
 library(scales) # for better scale labeling
 library(directlabels) # for line plot labeling
+library(ggfittext) # for text formatting in plots
 library(cowplot) # for multi-plot manipulation
 library(xray) # for data analysis
 library(zoo) # for rolling aggregates
