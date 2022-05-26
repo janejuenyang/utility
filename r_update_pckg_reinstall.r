@@ -25,7 +25,7 @@ install.packages(c("ggvis", "rgdal", "sp", "raster", "rgeos", "RgoogleMaps",
 # install packages for statistical analysis
 install.packages(c(
     # for general explorations
-     "skimr", "xray", "radiant"
+     "skimr", "radiant"
     # for specific data wrangling
     , "urltools"
     # for predictive modeling
