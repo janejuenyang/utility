@@ -23,6 +23,7 @@ library(scales) # for better scale labeling
 library(directlabels) # for line plot labeling
 library(ggfittext) # for text formatting in plots
 library(cowplot) # for multi-plot manipulation
+library(skimr) # for quick explorations
 library(xray) # for data analysis
 library(zoo) # for rolling aggregates
 library(extrafont) # for prettier fonts
