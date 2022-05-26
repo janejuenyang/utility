@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang
-# last edited: apr 24, 2022
+# last edited: may 26, 2022
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
@@ -29,7 +29,7 @@ install.packages(c(
     # for specific data wrangling
     , "urltools"
     # for predictive modeling
-    , "caret"
+    , "caret", "glmnet"
     # for logit regressions
     , "pROC", "rJava", "glmulti"
     # for multi-variate (e.g. anova) tests
