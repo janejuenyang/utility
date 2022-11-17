@@ -60,7 +60,7 @@ install.packages(c("xkcd", "extrafont", "acepack", "pals"))
 devtools::install_github("brooke-watson/BRRR")
 
 # install miscellaneous dataset packages
-install.packages(c("quantmod"))
+install.packages(c("quantmod", "ipumsr"))
 
 # Alternatively, you can follow the instructions at this link to store, upgrade
 # and then reload all the packages you have installed:
