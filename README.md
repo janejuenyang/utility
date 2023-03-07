@@ -19,18 +19,24 @@ This repo is a place to keep my housekeeping and handy reference scripts
 ############################################################################### . 
 
 #### set up ####
-# tunnel into queenbee
-# load standard libraries, connections, etc.
-source("~/Work/data_scratchpad/r_marian.r")
+# clear environment and console
+rm(list = ls())
+cat("\014")
+
+# load libraries
+library(tidyverse) # the most useful functions!
+library(readxl) # reading Excel
+library(lubridate) # making it easy to work with dates
+library(scales) # for better scale labeling
+library(directlabels) # for line plot labeling
+library(ggfittext) # for text formatting in plots
+library(gt) # pretty table formatting
 
 # define directories
 wd <- "~/Work/"
 dd <- paste(wd, "data", sep = "/")
 od <- paste(wd, "output", sep = "/")
 
-#### load data files ####
-
-#### close all connections ####
-close_dbConnections()
+#### load data ####
 ```
 * Bookmark [R for Data Science](https://r4ds.had.co.nz/), a great reference book written by [Hadley Wickham](https://en.wikipedia.org/wiki/Hadley_Wickham)
