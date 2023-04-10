@@ -1,12 +1,12 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang
-# last edited: mar 3, 2023
+# last edited: 10 apr 2023
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
     "ggthemes", "googlesheets4", "googledrive", "keyring", "directlabels",
-    "urltools", "xray", "openssl", "usethis"))
+    "urltools", "xray", "openssl", "usethis", "reticulate", "janitor"))
 
 # install database connector packages
 install.packages(c("DBI", "pool", "RODBC", "RJDBC", "RMariaDB", "bigrquery",
@@ -40,12 +40,14 @@ install.packages(c(
     , "optmatch", "MatchIt"
     # for A/B testing
     , "pwr", "bayesAB"
+    # for survey analysis,
+    , "srvyr"
     # for survival analysis
     , "survival", "ranger", "survminer", "flexsurv", "muhaz"
     # for classification analysis
     , "cluster", "factoextra", "fpc", "NbClust", "randomForest"
     # for exporting pretty table results to LaTeX or HTML
-    , "xtable", "stargazer", "gt", "webshot", "gtsummary"
+    , "xtable", "stargazer", "gt", "webshot2", "gtsummary"
 
 ))
 
