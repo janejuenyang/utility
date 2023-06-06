@@ -53,7 +53,7 @@ sum_by_group <- function(data, arrange_var, sum_var, ...){
     sum_var <- enquo(sum_var)
     data %>% 
         group_by(!!!group_vars) %>%
-        summarize(n = sum(!!sum_var)) %>%
+        summarize(n = sum(!!sum_var, na.rm = TRUE)) %>%
         ungroup() %>%
         mutate(pct = n / sum(n)) %>%
         arrange(!!arrange_var %>% desc())
