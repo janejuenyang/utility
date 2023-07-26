@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang
-# last edited: 10 apr 2023
+# last edited: 26 jul 2023
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
@@ -54,6 +54,9 @@ install.packages(c(
 # install packages for interesting visualizations
 install.packages(c("circlize", "wordcloud", "networkD3", "gganimate", "tweenr",
     "transformr", "gifski", "ggalluvial", "statnet", "GGally", "ggrepel"))
+
+# install packages for qualitative analysis
+install.packages(c("ldatuning", "tidytext", "topicmodels"))
 
 # install packages for formatting
 install.packages(c("xkcd", "extrafont", "acepack", "pals"))
