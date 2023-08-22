@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang
-# last edited: 26 jul 2023
+# last edited: 22 aug 2023
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
@@ -60,6 +60,8 @@ install.packages(c("ldatuning", "tidytext", "topicmodels"))
 
 # install packages for formatting
 install.packages(c("xkcd", "extrafont", "acepack", "pals"))
+font_import()
+loadfonts()
 
 # install packages for fun
 devtools::install_github("brooke-watson/BRRR")
