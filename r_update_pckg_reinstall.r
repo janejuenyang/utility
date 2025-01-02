@@ -12,9 +12,6 @@ install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
 install.packages(c("DBI", "pool", "RODBC", "RJDBC", "RMariaDB", "bigrquery",
     "rgeolocate", "rredis", "elasticsearchr"))
 
-# install data cleaning packages
-install.packages(c("janitor"))
-
 # install packages related to shiny
 install.packages(c("shiny", "shinythemes", "shinyBS", "rsconnect",
     "shinyloadtest", "shinydashboard", "plotly", "shinycssloaders", "DT",
