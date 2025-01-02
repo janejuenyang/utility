@@ -54,15 +54,15 @@ install.packages(c(
 # install packages for interesting visualizations
 install.packages(c("circlize", "wordcloud", "networkD3", "gganimate", "tweenr",
     "transformr", "gifski", "ggalluvial", "statnet", "GGally", "ggrepel",
-    "gghightlight", "paletteer", "ggthemes", "directlabels"))
+    "gghightlight", "paletteer", "ggthemes", "directlabels", "ggbeeswarm"))
 
 # install packages for qualitative analysis
 install.packages(c("ldatuning", "tidytext", "topicmodels"))
 
 # install packages for formatting
 install.packages(c("xkcd", "extrafont", "acepack", "pals"))
-font_import()
-loadfonts()
+extrafont::font_import()
+extrafont::loadfonts()
 
 # install packages for fun
 devtools::install_github("brooke-watson/BRRR")
