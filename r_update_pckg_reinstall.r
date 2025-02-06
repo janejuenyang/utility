@@ -1,7 +1,7 @@
 # R upgrade package reinstallation
 # because R is silly and removes all your packages when you upgrade
 # written by: jane yang
-# last edited: jan 1, 2025
+# last edited: feb 5, 2025
 
 # install core packages
 install.packages(c("tidyverse", "devtools", "lubridate", "knitr", "rmarkdown",
@@ -41,7 +41,7 @@ install.packages(c(
     # for A/B testing
     , "pwr", "bayesAB"
     # for survey analysis,
-    , "srvyr"
+    , "srvyr", "weights",
     # for survival analysis
     , "survival", "ranger", "survminer", "flexsurv", "muhaz"
     # for classification analysis
@@ -57,7 +57,7 @@ install.packages(c("circlize", "wordcloud", "networkD3", "gganimate", "tweenr",
     "gghightlight", "paletteer", "ggthemes", "directlabels", "ggbeeswarm"))
 
 # install packages for qualitative analysis
-install.packages(c("ldatuning", "tidytext", "topicmodels"))
+install.packages(c("ldatuning", "tidytext", "topicmodels", "polyglotr"))
 
 # install packages for formatting
 install.packages(c("xkcd", "extrafont", "acepack", "pals"))
