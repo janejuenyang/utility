@@ -41,7 +41,7 @@ install.packages(c(
     # for A/B testing
     , "pwr", "bayesAB"
     # for survey analysis,
-    , "srvyr", "weights",
+    , "srvyr", "weights", "anesrake",
     # for survival analysis
     , "survival", "ranger", "survminer", "flexsurv", "muhaz"
     # for classification analysis
